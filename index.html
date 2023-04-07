@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Faisal's Animal Showcase - Home</title>
+<link rel="icon" type="image/x-icon" href="assets/Fav_image.png">
+
+<body onload ="notification1()">
+  <header>
+    <div id="home-container">
+      <a href="index.html">
+          <img src="assets/home.png" alt="home button" width = "100" height ="100">
+      </a>
+      <h3 class ="home-btn">CLICK THE HOUSE TO GO HOME!</h3>
+    </div>
+    <nav class="nav">
+      <ul class = "nav-list" id = "nav2">
+        <li><a href ="profile.html">Profile</a></li>
+        <li><a href ="about_me.html">About Me</a></li>
+        </a></li>   
+      </ul> 
+    </nav>
+    <h1>Faisal's Animal Showcase</h1>
+  </header>
+  <main>
+    <section id="table">
+      <h2>My Animals</h2>
+      <table>
+        <div class="flex-container1">
+          <tr>
+            <th>My dog, Buddy</th>
+            <td><img id = "buddy2" src="assets/buddy_2.jpg" alt="Buddy" width="250" height="300"></td>
+          </tr>
+        </div>
+        <div class="flex-container1">
+          <tr>
+            <th>My dog, Rex</th>
+            <td><img id="rex2" src="assets/rex_1.jpg" alt="Rex" width="250" height="300"></td>
+          </tr>
+        </div>
+        <div class="flex-container1">
+          <tr>
+            <th>My cat, Bella</th>
+            <td><img id="bella1" src="assets/bella_1.jpg" alt="Bella" width="250" height="300"></td>
+          </tr>
+        </div>
+        <div class="flex-container1">
+          <tr>
+            <th>My bird, Snow</th>
+            <td><img src="assets/snow_2.jpg" alt="Snow" width="250" height="300"></td>
+          </tr>
+        </div>
+      </table>
+    </section>
+    <section id="ordered_list1">
+      <h2 id="current_pets">My Current pets!</h2>
+      <ol id ="list1">
+        <li>Buddy</li>
+        <li>Rex</li>
+        <li>Bella</li>
+        <li>Snow</li>
+      </ol>
+    </section>
+  </main>
+  <footer class="footer">
+    <input type ="button" value ="play music" class ="btn1">
+    <input type ="button" value ="pause music" class ="btn2">
+    <input type ="button" value ="reset music" class ="btn3">
+    <audio class="audio1">
+      <source src="assets/Audio.mp3" type="audio/mp3">
+    </audio>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
